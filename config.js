@@ -3,7 +3,6 @@ var abiDefinition;
 var byteCode;
 var mainContract;
 var mainContractInstance;
-var fromAccount;
 var defaultAccount;
 
 module.exports = {
@@ -12,6 +11,5 @@ module.exports = {
     byteCode: byteCode,
     mainContract: mainContract,
     mainContractInstance: mainContractInstance,
-    fromAccount: fromAccount,
     defaultAccount: defaultAccount
 };
